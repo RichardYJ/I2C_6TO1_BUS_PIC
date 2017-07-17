@@ -10274,11 +10274,7 @@ void GE_reload_default(void)
 {
 int i=0;
 
-
-
-GE_I2C2_HexWrite(0x980d,0x0888);
-
-
+# 356
 GE_I2C2_HexWrite(0x9900,0x9dc0);
 GE_I2C2_HexWrite(0x9901,0x2104);
 GE_I2C2_HexWrite(0x9902,0x8F10);

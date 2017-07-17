@@ -49,6 +49,13 @@
 #include "uart_top.h"
 #include "mcc_generated_files/adc.h"
 #define MY_PRINTF_EN 1
+
+#define GE_RSTB LATCbits.LATC3
+#define EN_1V0 LATCbits.LATC6
+#define EN_1V8 LATCbits.LATC7
+#define LPMODE RA2
+
+
 /*
                          Main application
  */
@@ -717,13 +724,24 @@ void main(void)
      int r = 0;
       
     LATCbits.LATC2 = 1;  // Pull MOD_ABS to high to tell Host: I am not ready yet 
-    LATCbits.LATC3 = 0;  //Tie RESTB to low to reset GE first
+//    LATCbits.LATC3 = 0;  //Tie RESTB to low to reset GE first
+    EN_1V0 = 0;
+    EN_1V8 = 0;
+    GE_RSTB = 0;
     uart_send_char("This is a new test, now reset GE first \r\n");
-    __delay_ms(100);  
-    __delay_ms(5000); 
-    __delay_ms(5000); 
-    __delay_ms(5000); 
-    LATCbits.LATC3 = 1;
+//    __delay_ms(100);  
+//    __delay_ms(5000); 
+//    __delay_ms(5000); 
+//    __delay_ms(5000); 
+//    LATCbits.LATC3 = 1;
+
+    __delay_ms(300);  //150ms//1000
+    EN_1V0 = 1;					//yj ?????
+    __delay_ms(300);  //150ms
+    EN_1V8 = 1;
+    __delay_ms(500);  //250ms
+    GE_RSTB = 1;		//hardware reset
+
     __delay_ms(1000); 
     uart_send_char("Reset done! now load fw to GE\r\n");
     __delay_ms(500);  
@@ -916,5 +934,4 @@ while(1)
 /**
  End of File
 */
-
 

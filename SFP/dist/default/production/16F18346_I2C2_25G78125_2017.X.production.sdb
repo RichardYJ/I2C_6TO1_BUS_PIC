@@ -3,7 +3,7 @@
 [d edition pro ]
 [d chip 16LF18346 ]
 [d frameptr 6 ]
-"184 G:\WORK_PIC\XIDE\MSSP2_I2C\16F18346_I2C2_25G78125\16F18346_I2C2_25G.X\mcc_generated_files/i2c2.c
+"184 D:\WorkSpace\PIC_SFP\16F18346_I2C2_25G78125_2017.X\mcc_generated_files/i2c2.c
 [e E7648 . `uc
 I2C2_MESSAGE_COMPLETE 0
 I2C2_MESSAGE_FAIL 1
@@ -28,7 +28,7 @@ S_MASTER_NOACK_STOP 9
 S_MASTER_SEND_ADDR_10BIT_LSB 10
 S_MASTER_10BIT_RESTART 11
 ]
-"119 G:\WORK_PIC\XIDE\MSSP2_I2C\16F18346_I2C2_25G78125\16F18346_I2C2_25G.X\mcc_generated_files/i2c1.c
+"119 D:\WorkSpace\PIC_SFP\16F18346_I2C2_25G78125_2017.X\mcc_generated_files/i2c1.c
 [e E7648 . `uc
 I2C1_SLAVE_WRITE_REQUEST 0
 I2C1_SLAVE_READ_REQUEST 1
@@ -40,14 +40,14 @@ I2C1_SLAVE_READ_COMPLETED 3
 SLAVE_NORMAL_DATA 0
 SLAVE_DATA_ADDRESS 1
 ]
-"86 G:\WORK_PIC\XIDE\MSSP2_I2C\16F18346_I2C2_25G78125\16F18346_I2C2_25G.X\mcc_generated_files/adc.c
+"86 D:\WorkSpace\PIC_SFP\16F18346_I2C2_25G78125_2017.X\mcc_generated_files/adc.c
 [e E7651 . `uc
 channel_AVSS 60
 channel_Temp 61
 channel_DAC1 62
 channel_FVR 63
 ]
-"73 G:\WORK_PIC\XIDE\MSSP2_I2C\16F18346_I2C2_25G78125\16F18346_I2C2_25G.X\eeprom_i2c.c
+"73 D:\WorkSpace\PIC_SFP\16F18346_I2C2_25G78125_2017.X\eeprom_i2c.c
 [e E7688 . `uc
 I2C2_MESSAGE_COMPLETE 0
 I2C2_MESSAGE_FAIL 1
@@ -57,7 +57,7 @@ I2C2_MESSAGE_ADDRESS_NO_ACK 4
 I2C2_DATA_NO_ACK 5
 I2C2_LOST_STATE 6
 ]
-"115 G:\WORK_PIC\XIDE\MSSP2_I2C\16F18346_I2C2_25G78125\16F18346_I2C2_25G.X\golden_eagle_i2c.c
+"115 D:\WorkSpace\PIC_SFP\16F18346_I2C2_25G78125_2017.X\golden_eagle_i2c.c
 [e E7688 . `uc
 I2C2_MESSAGE_COMPLETE 0
 I2C2_MESSAGE_FAIL 1
@@ -81,9 +81,9 @@ I2C2_LOST_STATE 6
 [v _eecpymem eecpymem `(v  1 e 1 0 ]
 "39
 [v _memcpyee memcpyee `(v  1 e 1 0 ]
-"52 G:\WORK_PIC\XIDE\MSSP2_I2C\16F18346_I2C2_25G78125\16F18346_I2C2_25G.X\eeprom_i2c.c
+"52 D:\WorkSpace\PIC_SFP\16F18346_I2C2_25G78125_2017.X\eeprom_i2c.c
 [v _I2C2_ByteWrite I2C2_ByteWrite `(i  1 e 2 0 ]
-"12 G:\WORK_PIC\XIDE\MSSP2_I2C\16F18346_I2C2_25G78125\16F18346_I2C2_25G.X\golden_eagle_i2c.c
+"12 D:\WorkSpace\PIC_SFP\16F18346_I2C2_25G78125_2017.X\golden_eagle_i2c.c
 [v _GE_I2C2_HexWrite GE_I2C2_HexWrite `(i  1 e 2 0 ]
 "28
 [v _GE_I2C2_HexRead GE_I2C2_HexRead `(ui  1 e 2 0 ]
@@ -103,25 +103,25 @@ I2C2_LOST_STATE 6
 [v _GE_reload_default GE_reload_default `(v  1 e 1 0 ]
 "547
 [v _get_int32 get_int32 `(l  1 e 4 0 ]
-"695 G:\WORK_PIC\XIDE\MSSP2_I2C\16F18346_I2C2_25G78125\16F18346_I2C2_25G.X\main.c
+"702 D:\WorkSpace\PIC_SFP\16F18346_I2C2_25G78125_2017.X\main.c
 [v _main main `(v  1 e 1 0 ]
-"64 G:\WORK_PIC\XIDE\MSSP2_I2C\16F18346_I2C2_25G78125\16F18346_I2C2_25G.X\mcc_generated_files/adc.c
+"64 D:\WorkSpace\PIC_SFP\16F18346_I2C2_25G78125_2017.X\mcc_generated_files/adc.c
 [v _ADC_Initialize ADC_Initialize `(v  1 e 1 0 ]
-"57 G:\WORK_PIC\XIDE\MSSP2_I2C\16F18346_I2C2_25G78125\16F18346_I2C2_25G.X\mcc_generated_files/clkref.c
+"57 D:\WorkSpace\PIC_SFP\16F18346_I2C2_25G78125_2017.X\mcc_generated_files/clkref.c
 [v _CLKREF_Initialize CLKREF_Initialize `(v  1 e 1 0 ]
-"55 G:\WORK_PIC\XIDE\MSSP2_I2C\16F18346_I2C2_25G78125\16F18346_I2C2_25G.X\mcc_generated_files/eusart.c
+"55 D:\WorkSpace\PIC_SFP\16F18346_I2C2_25G78125_2017.X\mcc_generated_files/eusart.c
 [v _EUSART_Initialize EUSART_Initialize `(v  1 e 1 0 ]
 "97
 [v _EUSART_Write EUSART_Write `(v  1 e 1 0 ]
-"57 G:\WORK_PIC\XIDE\MSSP2_I2C\16F18346_I2C2_25G78125\16F18346_I2C2_25G.X\mcc_generated_files/fvr.c
+"57 D:\WorkSpace\PIC_SFP\16F18346_I2C2_25G78125_2017.X\mcc_generated_files/fvr.c
 [v _FVR_Initialize FVR_Initialize `(v  1 e 1 0 ]
-"81 G:\WORK_PIC\XIDE\MSSP2_I2C\16F18346_I2C2_25G78125\16F18346_I2C2_25G.X\mcc_generated_files/i2c1.c
+"81 D:\WorkSpace\PIC_SFP\16F18346_I2C2_25G78125_2017.X\mcc_generated_files/i2c1.c
 [v _I2C1_Initialize I2C1_Initialize `(v  1 e 1 0 ]
 "104
 [v _I2C1_ISR I2C1_ISR `(v  1 e 1 0 ]
 "168
 [v _I2C1_StatusCallback I2C1_StatusCallback `(v  1 e 1 0 ]
-"198 G:\WORK_PIC\XIDE\MSSP2_I2C\16F18346_I2C2_25G78125\16F18346_I2C2_25G.X\mcc_generated_files/i2c2.c
+"198 D:\WorkSpace\PIC_SFP\16F18346_I2C2_25G78125_2017.X\mcc_generated_files/i2c2.c
 [v _I2C2_Initialize I2C2_Initialize `(v  1 e 1 0 ]
 "233
 [v _I2C2_ISR I2C2_ISR `(v  1 e 1 0 ]
@@ -141,34 +141,34 @@ I2C2_LOST_STATE 6
 [v _I2C2_MasterWriteTRBBuild I2C2_MasterWriteTRBBuild `(v  1 e 1 0 ]
 "728
 [v _I2C2_BusCollisionISR I2C2_BusCollisionISR `(v  1 e 1 0 ]
-"51 G:\WORK_PIC\XIDE\MSSP2_I2C\16F18346_I2C2_25G78125\16F18346_I2C2_25G.X\mcc_generated_files/interrupt_manager.c
+"51 D:\WorkSpace\PIC_SFP\16F18346_I2C2_25G78125_2017.X\mcc_generated_files/interrupt_manager.c
 [v _INTERRUPT_InterruptManager INTERRUPT_InterruptManager `II(v  1 e 1 0 ]
-"76 G:\WORK_PIC\XIDE\MSSP2_I2C\16F18346_I2C2_25G78125\16F18346_I2C2_25G.X\mcc_generated_files/mcc.c
+"76 D:\WorkSpace\PIC_SFP\16F18346_I2C2_25G78125_2017.X\mcc_generated_files/mcc.c
 [v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 1 0 ]
 "89
 [v _OSCILLATOR_Initialize OSCILLATOR_Initialize `(v  1 e 1 0 ]
-"60 G:\WORK_PIC\XIDE\MSSP2_I2C\16F18346_I2C2_25G78125\16F18346_I2C2_25G.X\mcc_generated_files/memory.c
+"60 D:\WorkSpace\PIC_SFP\16F18346_I2C2_25G78125_2017.X\mcc_generated_files/memory.c
 [v _FLASH_ReadWord FLASH_ReadWord `(ui  1 e 2 0 ]
 "96
 [v _FLASH_WriteBlock FLASH_WriteBlock `(c  1 e 1 0 ]
 "151
 [v _FLASH_EraseBlock FLASH_EraseBlock `(v  1 e 1 0 ]
-"50 G:\WORK_PIC\XIDE\MSSP2_I2C\16F18346_I2C2_25G78125\16F18346_I2C2_25G.X\mcc_generated_files/pin_manager.c
+"50 D:\WorkSpace\PIC_SFP\16F18346_I2C2_25G78125_2017.X\mcc_generated_files/pin_manager.c
 [v _PIN_MANAGER_Initialize PIN_MANAGER_Initialize `(v  1 e 1 0 ]
-"6 G:\WORK_PIC\XIDE\MSSP2_I2C\16F18346_I2C2_25G78125\16F18346_I2C2_25G.X\uart_top.c
+"6 D:\WorkSpace\PIC_SFP\16F18346_I2C2_25G78125_2017.X\uart_top.c
 [v _uart_send_char uart_send_char `(v  1 e 1 0 ]
 "16
 [v _uart_send_byte uart_send_byte `(v  1 e 1 0 ]
 "33
 [v _uart_send_hex uart_send_hex `(v  1 e 1 0 ]
-[s S639 . 1 `uc 1 INTEDG 1 0 :1:0 
+[s S640 . 1 `uc 1 INTEDG 1 0 :1:0 
 `uc 1 . 1 0 :5:1 
 `uc 1 PEIE 1 0 :1:6 
 `uc 1 GIE 1 0 :1:7 
 ]
 "350 C:\Program Files (x86)\Microchip\xc8\v1.38\include\pic16lf18346.h
-[u S644 . 1 `S639 1 . 1 0 ]
-[v _INTCONbits INTCONbits `VES644  1 e 1 @11 ]
+[u S645 . 1 `S640 1 . 1 0 ]
+[v _INTCONbits INTCONbits `VES645  1 e 1 @11 ]
 [s S329 . 1 `uc 1 TMR1IF 1 0 :1:0 
 `uc 1 TMR2IF 1 0 :1:1 
 `uc 1 BCL1IF 1 0 :1:2 
@@ -199,7 +199,7 @@ I2C2_LOST_STATE 6
 [v _TRISB TRISB `VEuc  1 e 1 @141 ]
 "1445
 [v _TRISC TRISC `VEuc  1 e 1 @142 ]
-[s S652 . 1 `uc 1 TMR1IE 1 0 :1:0 
+[s S653 . 1 `uc 1 TMR1IE 1 0 :1:0 
 `uc 1 TMR2IE 1 0 :1:1 
 `uc 1 BCL1IE 1 0 :1:2 
 `uc 1 SSP1IE 1 0 :1:3 
@@ -209,8 +209,8 @@ I2C2_LOST_STATE 6
 `uc 1 TMR1GIE 1 0 :1:7 
 ]
 "1555
-[u S661 . 1 `S652 1 . 1 0 ]
-[v _PIE1bits PIE1bits `VES661  1 e 1 @145 ]
+[u S662 . 1 `S653 1 . 1 0 ]
+[v _PIE1bits PIE1bits `VES662  1 e 1 @145 ]
 [s S86 . 1 `uc 1 NCO1IE 1 0 :1:0 
 `uc 1 TMR4IE 1 0 :1:1 
 `uc 1 BCL2IE 1 0 :1:2 
@@ -229,12 +229,12 @@ I2C2_LOST_STATE 6
 [v _ADRESH ADRESH `VEuc  1 e 1 @156 ]
 "1884
 [v _ADCON0 ADCON0 `VEuc  1 e 1 @157 ]
-[s S963 . 1 `uc 1 ADON 1 0 :1:0 
+[s S964 . 1 `uc 1 ADON 1 0 :1:0 
 `uc 1 GO_nDONE 1 0 :1:1 
 `uc 1 CHS 1 0 :6:2 
 ]
 "1910
-[s S967 . 1 `uc 1 . 1 0 :1:0 
+[s S968 . 1 `uc 1 . 1 0 :1:0 
 `uc 1 ADGO 1 0 :1:1 
 `uc 1 CHS0 1 0 :1:2 
 `uc 1 CHS1 1 0 :1:3 
@@ -243,11 +243,11 @@ I2C2_LOST_STATE 6
 `uc 1 CHS4 1 0 :1:6 
 `uc 1 CHS5 1 0 :1:7 
 ]
-[s S976 . 1 `uc 1 . 1 0 :1:0 
+[s S977 . 1 `uc 1 . 1 0 :1:0 
 `uc 1 GO 1 0 :1:1 
 ]
-[u S979 . 1 `S963 1 . 1 0 `S967 1 . 1 0 `S976 1 . 1 0 ]
-[v _ADCON0bits ADCON0bits `VES979  1 e 1 @157 ]
+[u S980 . 1 `S964 1 . 1 0 `S968 1 . 1 0 `S977 1 . 1 0 ]
+[v _ADCON0bits ADCON0bits `VES980  1 e 1 @157 ]
 "1969
 [v _ADCON1 ADCON1 `VEuc  1 e 1 @158 ]
 "2040
@@ -258,7 +258,7 @@ I2C2_LOST_STATE 6
 [v _LATB LATB `VEuc  1 e 1 @269 ]
 "2173
 [v _LATC LATC `VEuc  1 e 1 @270 ]
-[s S1070 . 1 `uc 1 LATC0 1 0 :1:0 
+[s S1071 . 1 `uc 1 LATC0 1 0 :1:0 
 `uc 1 LATC1 1 0 :1:1 
 `uc 1 LATC2 1 0 :1:2 
 `uc 1 LATC3 1 0 :1:3 
@@ -268,11 +268,11 @@ I2C2_LOST_STATE 6
 `uc 1 LATC7 1 0 :1:7 
 ]
 "2190
-[u S1079 . 1 `S1070 1 . 1 0 ]
-[v _LATCbits LATCbits `VES1079  1 e 1 @270 ]
+[u S1080 . 1 `S1071 1 . 1 0 ]
+[v _LATCbits LATCbits `VES1080  1 e 1 @270 ]
 "2537
 [v _FVRCON FVRCON `VEuc  1 e 1 @279 ]
-[s S1025 . 1 `uc 1 ADFVR 1 0 :2:0 
+[s S1026 . 1 `uc 1 ADFVR 1 0 :2:0 
 `uc 1 CDAFVR 1 0 :2:2 
 `uc 1 TSRNG 1 0 :1:4 
 `uc 1 TSEN 1 0 :1:5 
@@ -280,13 +280,13 @@ I2C2_LOST_STATE 6
 `uc 1 FVREN 1 0 :1:7 
 ]
 "2558
-[s S1032 . 1 `uc 1 ADFVR0 1 0 :1:0 
+[s S1033 . 1 `uc 1 ADFVR0 1 0 :1:0 
 `uc 1 ADFVR1 1 0 :1:1 
 `uc 1 CDAFVR0 1 0 :1:2 
 `uc 1 CDAFVR1 1 0 :1:3 
 ]
-[u S1037 . 1 `S1025 1 . 1 0 `S1032 1 . 1 0 ]
-[v _FVRCONbits FVRCONbits `VES1037  1 e 1 @279 ]
+[u S1038 . 1 `S1026 1 . 1 0 `S1033 1 . 1 0 ]
+[v _FVRCONbits FVRCONbits `VES1038  1 e 1 @279 ]
 "2718
 [v _ANSELA ANSELA `VEuc  1 e 1 @396 ]
 "2762
@@ -335,7 +335,7 @@ I2C2_LOST_STATE 6
 [v _SSP1MSK SSP1MSK `VEuc  1 e 1 @531 ]
 "4605
 [v _SSP1STAT SSP1STAT `VEuc  1 e 1 @532 ]
-[s S762 . 1 `uc 1 BF 1 0 :1:0 
+[s S763 . 1 `uc 1 BF 1 0 :1:0 
 `uc 1 UA 1 0 :1:1 
 `uc 1 R_nW 1 0 :1:2 
 `uc 1 S 1 0 :1:3 
@@ -345,8 +345,8 @@ I2C2_LOST_STATE 6
 `uc 1 SMP 1 0 :1:7 
 ]
 "4627
-[u S771 . 1 `S762 1 . 1 0 ]
-[v _SSP1STATbits SSP1STATbits `VES771  1 e 1 @532 ]
+[u S772 . 1 `S763 1 . 1 0 ]
+[v _SSP1STATbits SSP1STATbits `VES772  1 e 1 @532 ]
 "4726
 [v _SSP1CON1 SSP1CON1 `VEuc  1 e 1 @533 ]
 [s S107 . 1 `uc 1 SSPM 1 0 :4:0 
@@ -393,6 +393,8 @@ I2C2_LOST_STATE 6
 [v _SSP2CON2bits SSP2CON2bits `VES142  1 e 1 @542 ]
 "5877
 [v _SSP2CON3 SSP2CON3 `VEuc  1 e 1 @543 ]
+"6020
+[v _ODCONC ODCONC `VEuc  1 e 1 @654 ]
 "7515
 [v _CLKRCON CLKRCON `VEuc  1 e 1 @922 ]
 "10735
@@ -403,7 +405,7 @@ I2C2_LOST_STATE 6
 [v _NVMDATL NVMDATL `VEuc  1 e 1 @2195 ]
 "10942
 [v _NVMDATH NVMDATH `VEuc  1 e 1 @2196 ]
-[s S883 . 1 `uc 1 RD 1 0 :1:0 
+[s S884 . 1 `uc 1 RD 1 0 :1:0 
 `uc 1 WR 1 0 :1:1 
 `uc 1 WREN 1 0 :1:2 
 `uc 1 WRERR 1 0 :1:3 
@@ -412,8 +414,8 @@ I2C2_LOST_STATE 6
 `uc 1 NVMREGS 1 0 :1:6 
 ]
 "11015
-[u S891 . 1 `S883 1 . 1 0 ]
-[v _NVMCON1bits NVMCON1bits `VES891  1 e 1 @2197 ]
+[u S892 . 1 `S884 1 . 1 0 ]
+[v _NVMCON1bits NVMCON1bits `VES892  1 e 1 @2197 ]
 "11054
 [v _NVMCON2 NVMCON2 `VEuc  1 e 1 @2198 ]
 "11474
@@ -428,133 +430,133 @@ I2C2_LOST_STATE 6
 [v _OSCFRQ OSCFRQ `VEuc  1 e 1 @2335 ]
 "11854
 [v _PPSLOCK PPSLOCK `VEuc  1 e 1 @3599 ]
-[s S386 . 1 `uc 1 PPSLOCKED 1 0 :1:0 
+[s S387 . 1 `uc 1 PPSLOCKED 1 0 :1:0 
 ]
 "11864
-[u S388 . 1 `S386 1 . 1 0 ]
-[v _PPSLOCKbits PPSLOCKbits `VES388  1 e 1 @3599 ]
-[s S553 . 1 `uc 1 SSP2CLKPPS 1 0 :5:0 
+[u S389 . 1 `S387 1 . 1 0 ]
+[v _PPSLOCKbits PPSLOCKbits `VES389  1 e 1 @3599 ]
+[s S554 . 1 `uc 1 SSP2CLKPPS 1 0 :5:0 
 ]
 "12553
-[s S555 . 1 `uc 1 SSP2CLKPPS0 1 0 :1:0 
+[s S556 . 1 `uc 1 SSP2CLKPPS0 1 0 :1:0 
 `uc 1 SSP2CLKPPS1 1 0 :1:1 
 `uc 1 SSP2CLKPPS2 1 0 :1:2 
 `uc 1 SSP2CLKPPS3 1 0 :1:3 
 `uc 1 SSP2CLKPPS4 1 0 :1:4 
 ]
-[u S561 . 1 `S553 1 . 1 0 `S555 1 . 1 0 ]
-[v _SSP2CLKPPSbits SSP2CLKPPSbits `VES561  1 e 1 @3613 ]
-[s S533 . 1 `uc 1 SSP2DATPPS 1 0 :5:0 
+[u S562 . 1 `S554 1 . 1 0 `S556 1 . 1 0 ]
+[v _SSP2CLKPPSbits SSP2CLKPPSbits `VES562  1 e 1 @3613 ]
+[s S534 . 1 `uc 1 SSP2DATPPS 1 0 :5:0 
 ]
 "12604
-[s S535 . 1 `uc 1 SSP2DATPPS0 1 0 :1:0 
+[s S536 . 1 `uc 1 SSP2DATPPS0 1 0 :1:0 
 `uc 1 SSP2DATPPS1 1 0 :1:1 
 `uc 1 SSP2DATPPS2 1 0 :1:2 
 `uc 1 SSP2DATPPS3 1 0 :1:3 
 `uc 1 SSP2DATPPS4 1 0 :1:4 
 ]
-[u S541 . 1 `S533 1 . 1 0 `S535 1 . 1 0 ]
-[v _SSP2DATPPSbits SSP2DATPPSbits `VES541  1 e 1 @3614 ]
-[s S413 . 1 `uc 1 SSP1CLKPPS 1 0 :5:0 
+[u S542 . 1 `S534 1 . 1 0 `S536 1 . 1 0 ]
+[v _SSP2DATPPSbits SSP2DATPPSbits `VES542  1 e 1 @3614 ]
+[s S414 . 1 `uc 1 SSP1CLKPPS 1 0 :5:0 
 ]
 "12706
-[s S415 . 1 `uc 1 SSP1CLKPPS0 1 0 :1:0 
+[s S416 . 1 `uc 1 SSP1CLKPPS0 1 0 :1:0 
 `uc 1 SSP1CLKPPS1 1 0 :1:1 
 `uc 1 SSP1CLKPPS2 1 0 :1:2 
 `uc 1 SSP1CLKPPS3 1 0 :1:3 
 `uc 1 SSP1CLKPPS4 1 0 :1:4 
 ]
-[u S421 . 1 `S413 1 . 1 0 `S415 1 . 1 0 ]
-[v _SSP1CLKPPSbits SSP1CLKPPSbits `VES421  1 e 1 @3616 ]
-[s S393 . 1 `uc 1 SSP1DATPPS 1 0 :5:0 
+[u S422 . 1 `S414 1 . 1 0 `S416 1 . 1 0 ]
+[v _SSP1CLKPPSbits SSP1CLKPPSbits `VES422  1 e 1 @3616 ]
+[s S394 . 1 `uc 1 SSP1DATPPS 1 0 :5:0 
 ]
 "12757
-[s S395 . 1 `uc 1 SSP1DATPPS0 1 0 :1:0 
+[s S396 . 1 `uc 1 SSP1DATPPS0 1 0 :1:0 
 `uc 1 SSP1DATPPS1 1 0 :1:1 
 `uc 1 SSP1DATPPS2 1 0 :1:2 
 `uc 1 SSP1DATPPS3 1 0 :1:3 
 `uc 1 SSP1DATPPS4 1 0 :1:4 
 ]
-[u S401 . 1 `S393 1 . 1 0 `S395 1 . 1 0 ]
-[v _SSP1DATPPSbits SSP1DATPPSbits `VES401  1 e 1 @3617 ]
-[s S433 . 1 `uc 1 RA4PPS 1 0 :5:0 
+[u S402 . 1 `S394 1 . 1 0 `S396 1 . 1 0 ]
+[v _SSP1DATPPSbits SSP1DATPPSbits `VES402  1 e 1 @3617 ]
+[s S434 . 1 `uc 1 RA4PPS 1 0 :5:0 
 ]
 "13394
-[s S435 . 1 `uc 1 RA4PPS0 1 0 :1:0 
+[s S436 . 1 `uc 1 RA4PPS0 1 0 :1:0 
 `uc 1 RA4PPS1 1 0 :1:1 
 `uc 1 RA4PPS2 1 0 :1:2 
 `uc 1 RA4PPS3 1 0 :1:3 
 `uc 1 RA4PPS4 1 0 :1:4 
 ]
-[u S441 . 1 `S433 1 . 1 0 `S435 1 . 1 0 ]
-[v _RA4PPSbits RA4PPSbits `VES441  1 e 1 @3732 ]
-[s S453 . 1 `uc 1 RB4PPS 1 0 :5:0 
+[u S442 . 1 `S434 1 . 1 0 `S436 1 . 1 0 ]
+[v _RA4PPSbits RA4PPSbits `VES442  1 e 1 @3732 ]
+[s S454 . 1 `uc 1 RB4PPS 1 0 :5:0 
 ]
 "13496
-[s S455 . 1 `uc 1 RB4PPS0 1 0 :1:0 
+[s S456 . 1 `uc 1 RB4PPS0 1 0 :1:0 
 `uc 1 RB4PPS1 1 0 :1:1 
 `uc 1 RB4PPS2 1 0 :1:2 
 `uc 1 RB4PPS3 1 0 :1:3 
 `uc 1 RB4PPS4 1 0 :1:4 
 ]
-[u S461 . 1 `S453 1 . 1 0 `S455 1 . 1 0 ]
-[v _RB4PPSbits RB4PPSbits `VES461  1 e 1 @3740 ]
-[s S573 . 1 `uc 1 RB5PPS 1 0 :5:0 
+[u S462 . 1 `S454 1 . 1 0 `S456 1 . 1 0 ]
+[v _RB4PPSbits RB4PPSbits `VES462  1 e 1 @3740 ]
+[s S574 . 1 `uc 1 RB5PPS 1 0 :5:0 
 ]
 "13547
-[s S575 . 1 `uc 1 RB5PPS0 1 0 :1:0 
+[s S576 . 1 `uc 1 RB5PPS0 1 0 :1:0 
 `uc 1 RB5PPS1 1 0 :1:1 
 `uc 1 RB5PPS2 1 0 :1:2 
 `uc 1 RB5PPS3 1 0 :1:3 
 `uc 1 RB5PPS4 1 0 :1:4 
 ]
-[u S581 . 1 `S573 1 . 1 0 `S575 1 . 1 0 ]
-[v _RB5PPSbits RB5PPSbits `VES581  1 e 1 @3741 ]
-[s S513 . 1 `uc 1 RB6PPS 1 0 :5:0 
+[u S582 . 1 `S574 1 . 1 0 `S576 1 . 1 0 ]
+[v _RB5PPSbits RB5PPSbits `VES582  1 e 1 @3741 ]
+[s S514 . 1 `uc 1 RB6PPS 1 0 :5:0 
 ]
 "13598
-[s S515 . 1 `uc 1 RB6PPS0 1 0 :1:0 
+[s S516 . 1 `uc 1 RB6PPS0 1 0 :1:0 
 `uc 1 RB6PPS1 1 0 :1:1 
 `uc 1 RB6PPS2 1 0 :1:2 
 `uc 1 RB6PPS3 1 0 :1:3 
 `uc 1 RB6PPS4 1 0 :1:4 
 ]
-[u S521 . 1 `S513 1 . 1 0 `S515 1 . 1 0 ]
-[v _RB6PPSbits RB6PPSbits `VES521  1 e 1 @3742 ]
-[s S493 . 1 `uc 1 RB7PPS 1 0 :5:0 
+[u S522 . 1 `S514 1 . 1 0 `S516 1 . 1 0 ]
+[v _RB6PPSbits RB6PPSbits `VES522  1 e 1 @3742 ]
+[s S494 . 1 `uc 1 RB7PPS 1 0 :5:0 
 ]
 "13649
-[s S495 . 1 `uc 1 RB7PPS0 1 0 :1:0 
+[s S496 . 1 `uc 1 RB7PPS0 1 0 :1:0 
 `uc 1 RB7PPS1 1 0 :1:1 
 `uc 1 RB7PPS2 1 0 :1:2 
 `uc 1 RB7PPS3 1 0 :1:3 
 `uc 1 RB7PPS4 1 0 :1:4 
 ]
-[u S501 . 1 `S493 1 . 1 0 `S495 1 . 1 0 ]
-[v _RB7PPSbits RB7PPSbits `VES501  1 e 1 @3743 ]
-[s S473 . 1 `uc 1 RC4PPS 1 0 :5:0 
+[u S502 . 1 `S494 1 . 1 0 `S496 1 . 1 0 ]
+[v _RB7PPSbits RB7PPSbits `VES502  1 e 1 @3743 ]
+[s S474 . 1 `uc 1 RC4PPS 1 0 :5:0 
 ]
 "13904
-[s S475 . 1 `uc 1 RC4PPS0 1 0 :1:0 
+[s S476 . 1 `uc 1 RC4PPS0 1 0 :1:0 
 `uc 1 RC4PPS1 1 0 :1:1 
 `uc 1 RC4PPS2 1 0 :1:2 
 `uc 1 RC4PPS3 1 0 :1:3 
 `uc 1 RC4PPS4 1 0 :1:4 
 ]
-[u S481 . 1 `S473 1 . 1 0 `S475 1 . 1 0 ]
-[v _RC4PPSbits RC4PPSbits `VES481  1 e 1 @3748 ]
+[u S482 . 1 `S474 1 . 1 0 `S476 1 . 1 0 ]
+[v _RC4PPSbits RC4PPSbits `VES482  1 e 1 @3748 ]
 "19345
 [v _GIE GIE `VEb  1 e 0 @95 ]
-"10 G:\WORK_PIC\XIDE\MSSP2_I2C\16F18346_I2C2_25G78125\16F18346_I2C2_25G.X\golden_eagle_i2c.c
+"10 D:\WorkSpace\PIC_SFP\16F18346_I2C2_25G78125_2017.X\golden_eagle_i2c.c
 [v _timeOut timeOut `uc  1 e 1 0 ]
-"56 G:\WORK_PIC\XIDE\MSSP2_I2C\16F18346_I2C2_25G78125\16F18346_I2C2_25G.X\main.c
+"63 D:\WorkSpace\PIC_SFP\16F18346_I2C2_25G78125_2017.X\main.c
 [v _fw_content fw_content `DCC[5500]uc  1 e 5500 0 ]
-"404
+"411
 [v _script_content script_content `DCC[1152]uc  1 e 1152 0 ]
-"62 G:\WORK_PIC\XIDE\MSSP2_I2C\16F18346_I2C2_25G78125\16F18346_I2C2_25G.X\mcc_generated_files/i2c1.c
+"62 D:\WorkSpace\PIC_SFP\16F18346_I2C2_25G78125_2017.X\mcc_generated_files/i2c1.c
 [v _I2C1_slaveWriteData I2C1_slaveWriteData `VEuc  1 e 1 0 ]
 [s S19 . 5 `ui 1 address 2 0 `uc 1 length 1 2 `*.39uc 1 pbuffer 2 3 ]
-"184 G:\WORK_PIC\XIDE\MSSP2_I2C\16F18346_I2C2_25G78125\16F18346_I2C2_25G.X\mcc_generated_files/i2c2.c
+"184 D:\WorkSpace\PIC_SFP\16F18346_I2C2_25G78125_2017.X\mcc_generated_files/i2c2.c
 [s S31 . 3 `uc 1 count 1 0 `*.5S19 1 ptrb_list 1 1 `*.4E7648 1 pTrFlag 1 2 ]
 [v _i2c2_tr_queue i2c2_tr_queue `[1]S31  1 s 3 i2c2_tr_queue ]
 "185
@@ -573,46 +575,46 @@ I2C2_LOST_STATE 6
 [v _p_i2c2_trb_current p_i2c2_trb_current `*.5S19  1 s 1 p_i2c2_trb_current ]
 "190
 [v _p_i2c2_current p_i2c2_current `*.4S31  1 s 1 p_i2c2_current ]
-"695 G:\WORK_PIC\XIDE\MSSP2_I2C\16F18346_I2C2_25G78125\16F18346_I2C2_25G.X\main.c
+"702 D:\WorkSpace\PIC_SFP\16F18346_I2C2_25G78125_2017.X\main.c
 [v _main main `(v  1 e 1 0 ]
 {
-"747
+"765
 [v main@FW_regAddr_base FW_regAddr_base `[3]ui  1 a 6 15 ]
-"741
+"759
 [v main@startAddr startAddr `ul  1 a 4 55 ]
-"739
+"757
 [v main@len len `ul  1 a 4 51 ]
-"750
+"768
 [v main@checktime checktime `ul  1 a 4 37 ]
-"745
+"763
 [v main@checkSum checkSum `l  1 a 4 33 ]
-"744
+"762
 [v main@ramAddr ramAddr `ul  1 a 4 29 ]
-"740
+"758
 [v main@enterPoint enterPoint `ul  1 a 4 25 ]
-"738
+"756
 [v main@counter counter `ul  1 a 4 21 ]
-"748
+"766
 [v main@i i `i  1 a 2 63 ]
-"734
+"752
 [v main@b_data b_data `*.25DCCi  1 a 2 61 ]
-"764
+"782
 [v main@len_script len_script `i  1 a 2 59 ]
-"755
+"773
 [v main@TotalError TotalError `ui  1 a 2 49 ]
-"753
+"771
 [v main@RdCheck RdCheck `ui  1 a 2 47 ]
-"749
+"767
 [v main@section section `i  1 a 2 45 ]
-"743
+"761
 [v main@dataAddr dataAddr `ui  1 a 2 43 ]
-"717
+"724
 [v main@r r `i  1 a 2 41 ]
-"745
-[v main@F7869 F7869 `[3]ui  1 s 6 F7869 ]
-"915
+"763
+[v main@F7868 F7868 `[3]ui  1 s 6 F7868 ]
+"933
 } 0
-"547 G:\WORK_PIC\XIDE\MSSP2_I2C\16F18346_I2C2_25G78125\16F18346_I2C2_25G.X\golden_eagle_i2c.c
+"547 D:\WorkSpace\PIC_SFP\16F18346_I2C2_25G78125_2017.X\golden_eagle_i2c.c
 [v _get_int32 get_int32 `(l  1 e 4 0 ]
 {
 "549
@@ -635,54 +637,54 @@ I2C2_LOST_STATE 6
 [v ___lldiv@dividend dividend `ul  1 p 4 4 ]
 "31
 } 0
-"76 G:\WORK_PIC\XIDE\MSSP2_I2C\16F18346_I2C2_25G78125\16F18346_I2C2_25G.X\mcc_generated_files/mcc.c
+"76 D:\WorkSpace\PIC_SFP\16F18346_I2C2_25G78125_2017.X\mcc_generated_files/mcc.c
 [v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 1 0 ]
 {
 "87
 } 0
-"50 G:\WORK_PIC\XIDE\MSSP2_I2C\16F18346_I2C2_25G78125\16F18346_I2C2_25G.X\mcc_generated_files/pin_manager.c
+"50 D:\WorkSpace\PIC_SFP\16F18346_I2C2_25G78125_2017.X\mcc_generated_files/pin_manager.c
 [v _PIN_MANAGER_Initialize PIN_MANAGER_Initialize `(v  1 e 1 0 ]
 {
 "68
 [v PIN_MANAGER_Initialize@state state `uc  1 a 1 0 ]
 "91
 } 0
-"89 G:\WORK_PIC\XIDE\MSSP2_I2C\16F18346_I2C2_25G78125\16F18346_I2C2_25G.X\mcc_generated_files/mcc.c
+"89 D:\WorkSpace\PIC_SFP\16F18346_I2C2_25G78125_2017.X\mcc_generated_files/mcc.c
 [v _OSCILLATOR_Initialize OSCILLATOR_Initialize `(v  1 e 1 0 ]
 {
 "103
 } 0
-"198 G:\WORK_PIC\XIDE\MSSP2_I2C\16F18346_I2C2_25G78125\16F18346_I2C2_25G.X\mcc_generated_files/i2c2.c
+"198 D:\WorkSpace\PIC_SFP\16F18346_I2C2_25G78125_2017.X\mcc_generated_files/i2c2.c
 [v _I2C2_Initialize I2C2_Initialize `(v  1 e 1 0 ]
 {
 "222
 } 0
-"81 G:\WORK_PIC\XIDE\MSSP2_I2C\16F18346_I2C2_25G78125\16F18346_I2C2_25G.X\mcc_generated_files/i2c1.c
+"81 D:\WorkSpace\PIC_SFP\16F18346_I2C2_25G78125_2017.X\mcc_generated_files/i2c1.c
 [v _I2C1_Initialize I2C1_Initialize `(v  1 e 1 0 ]
 {
 "102
 } 0
-"57 G:\WORK_PIC\XIDE\MSSP2_I2C\16F18346_I2C2_25G78125\16F18346_I2C2_25G.X\mcc_generated_files/fvr.c
+"57 D:\WorkSpace\PIC_SFP\16F18346_I2C2_25G78125_2017.X\mcc_generated_files/fvr.c
 [v _FVR_Initialize FVR_Initialize `(v  1 e 1 0 ]
 {
 "61
 } 0
-"55 G:\WORK_PIC\XIDE\MSSP2_I2C\16F18346_I2C2_25G78125\16F18346_I2C2_25G.X\mcc_generated_files/eusart.c
+"55 D:\WorkSpace\PIC_SFP\16F18346_I2C2_25G78125_2017.X\mcc_generated_files/eusart.c
 [v _EUSART_Initialize EUSART_Initialize `(v  1 e 1 0 ]
 {
 "74
 } 0
-"57 G:\WORK_PIC\XIDE\MSSP2_I2C\16F18346_I2C2_25G78125\16F18346_I2C2_25G.X\mcc_generated_files/clkref.c
+"57 D:\WorkSpace\PIC_SFP\16F18346_I2C2_25G78125_2017.X\mcc_generated_files/clkref.c
 [v _CLKREF_Initialize CLKREF_Initialize `(v  1 e 1 0 ]
 {
 "61
 } 0
-"64 G:\WORK_PIC\XIDE\MSSP2_I2C\16F18346_I2C2_25G78125\16F18346_I2C2_25G.X\mcc_generated_files/adc.c
+"64 D:\WorkSpace\PIC_SFP\16F18346_I2C2_25G78125_2017.X\mcc_generated_files/adc.c
 [v _ADC_Initialize ADC_Initialize `(v  1 e 1 0 ]
 {
 "83
 } 0
-"347 G:\WORK_PIC\XIDE\MSSP2_I2C\16F18346_I2C2_25G78125\16F18346_I2C2_25G.X\golden_eagle_i2c.c
+"347 D:\WorkSpace\PIC_SFP\16F18346_I2C2_25G78125_2017.X\golden_eagle_i2c.c
 [v _GE_reload_default GE_reload_default `(v  1 e 1 0 ]
 {
 "349
@@ -762,7 +764,7 @@ I2C2_LOST_STATE 6
 [v GE_I2C2_ByteRead@dataAddress dataAddress `*.4uc  1 a 1 48 ]
 "241
 } 0
-"619 G:\WORK_PIC\XIDE\MSSP2_I2C\16F18346_I2C2_25G78125\16F18346_I2C2_25G.X\mcc_generated_files/i2c2.c
+"619 D:\WorkSpace\PIC_SFP\16F18346_I2C2_25G78125_2017.X\mcc_generated_files/i2c2.c
 [v _I2C2_MasterRead I2C2_MasterRead `(v  1 e 1 0 ]
 {
 "620
@@ -796,7 +798,7 @@ I2C2_LOST_STATE 6
 [v I2C2_MasterReadTRBBuild@ptrb ptrb `*.5S19  1 a 1 7 ]
 "705
 } 0
-"146 G:\WORK_PIC\XIDE\MSSP2_I2C\16F18346_I2C2_25G78125\16F18346_I2C2_25G.X\golden_eagle_i2c.c
+"146 D:\WorkSpace\PIC_SFP\16F18346_I2C2_25G78125_2017.X\golden_eagle_i2c.c
 [v _GE_I2C2_AddrWrite GE_I2C2_AddrWrite `(i  1 e 2 0 ]
 {
 [v GE_I2C2_AddrWrite@dataAddress dataAddress `*.4uc  1 a 1 wreg ]
@@ -855,7 +857,7 @@ I2C2_LOST_STATE 6
 [v GE_I2C2_ByteWrite@dataAddress dataAddress `*.4uc  1 a 1 41 ]
 "144
 } 0
-"33 G:\WORK_PIC\XIDE\MSSP2_I2C\16F18346_I2C2_25G78125\16F18346_I2C2_25G.X\uart_top.c
+"33 D:\WorkSpace\PIC_SFP\16F18346_I2C2_25G78125_2017.X\uart_top.c
 [v _uart_send_hex uart_send_hex `(v  1 e 1 0 ]
 {
 [v uart_send_hex@hexValue hexValue `uc  1 a 1 wreg ]
@@ -882,7 +884,7 @@ I2C2_LOST_STATE 6
 [v ___awdiv@dividend dividend `i  1 p 2 2 ]
 "42
 } 0
-"97 G:\WORK_PIC\XIDE\MSSP2_I2C\16F18346_I2C2_25G78125\16F18346_I2C2_25G.X\mcc_generated_files/eusart.c
+"97 D:\WorkSpace\PIC_SFP\16F18346_I2C2_25G78125_2017.X\mcc_generated_files/eusart.c
 [v _EUSART_Write EUSART_Write `(v  1 e 1 0 ]
 {
 [v EUSART_Write@txData txData `uc  1 a 1 wreg ]
@@ -890,7 +892,7 @@ I2C2_LOST_STATE 6
 [v EUSART_Write@txData txData `uc  1 a 1 0 ]
 "104
 } 0
-"6 G:\WORK_PIC\XIDE\MSSP2_I2C\16F18346_I2C2_25G78125\16F18346_I2C2_25G.X\uart_top.c
+"6 D:\WorkSpace\PIC_SFP\16F18346_I2C2_25G78125_2017.X\uart_top.c
 [v _uart_send_char uart_send_char `(v  1 e 1 0 ]
 {
 "8
@@ -907,7 +909,7 @@ I2C2_LOST_STATE 6
 [v uart_send_byte@temp temp `uc  1 a 1 0 ]
 "20
 } 0
-"598 G:\WORK_PIC\XIDE\MSSP2_I2C\16F18346_I2C2_25G78125\16F18346_I2C2_25G.X\mcc_generated_files/i2c2.c
+"598 D:\WorkSpace\PIC_SFP\16F18346_I2C2_25G78125_2017.X\mcc_generated_files/i2c2.c
 [v _I2C2_MasterWrite I2C2_MasterWrite `(v  1 e 1 0 ]
 {
 "599
@@ -959,12 +961,12 @@ I2C2_LOST_STATE 6
 [v I2C2_MasterTRBInsert@count count `uc  1 a 1 3 ]
 "692
 } 0
-"51 G:\WORK_PIC\XIDE\MSSP2_I2C\16F18346_I2C2_25G78125\16F18346_I2C2_25G.X\mcc_generated_files/interrupt_manager.c
+"51 D:\WorkSpace\PIC_SFP\16F18346_I2C2_25G78125_2017.X\mcc_generated_files/interrupt_manager.c
 [v _INTERRUPT_InterruptManager INTERRUPT_InterruptManager `II(v  1 e 1 0 ]
 {
 "70
 } 0
-"233 G:\WORK_PIC\XIDE\MSSP2_I2C\16F18346_I2C2_25G78125\16F18346_I2C2_25G.X\mcc_generated_files/i2c2.c
+"233 D:\WorkSpace\PIC_SFP\16F18346_I2C2_25G78125_2017.X\mcc_generated_files/i2c2.c
 [v _I2C2_ISR I2C2_ISR `(v  1 e 1 0 ]
 {
 "236
@@ -996,7 +998,7 @@ I2C2_LOST_STATE 6
 {
 "731
 } 0
-"104 G:\WORK_PIC\XIDE\MSSP2_I2C\16F18346_I2C2_25G78125\16F18346_I2C2_25G.X\mcc_generated_files/i2c1.c
+"104 D:\WorkSpace\PIC_SFP\16F18346_I2C2_25G78125_2017.X\mcc_generated_files/i2c1.c
 [v _I2C1_ISR I2C1_ISR `(v  1 e 1 0 ]
 {
 "106

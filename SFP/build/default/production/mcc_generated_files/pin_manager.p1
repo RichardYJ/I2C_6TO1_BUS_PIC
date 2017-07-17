@@ -23,6 +23,8 @@ Version 3.2 HI-TECH Software Intermediate Code
 [v _TRISC `Vuc ~T0 @X0 0 e@142 ]
 "1363
 [v _TRISA `Vuc ~T0 @X0 0 e@140 ]
+"6020
+[v _ODCONC `Vuc ~T0 @X0 0 e@654 ]
 "19345
 [v _GIE `Vb ~T0 @X0 0 e@95 ]
 "11854
@@ -7440,12 +7442,15 @@ Version 3.2 HI-TECH Software Intermediate Code
 [; ;pin_manager.c: 61: TRISB = 0xF0;
 "61
 [e = _TRISB -> -> 240 `i `uc ]
-[; ;pin_manager.c: 62: TRISC = 0xE7;
+[; ;pin_manager.c: 62: TRISC = 0x27;
 "62
-[e = _TRISC -> -> 231 `i `uc ]
+[e = _TRISC -> -> 39 `i `uc ]
 [; ;pin_manager.c: 63: TRISA = 0x27;
 "63
 [e = _TRISA -> -> 39 `i `uc ]
+[; ;pin_manager.c: 66: ODCONC =0x00;
+"66
+[e = _ODCONC -> -> 0 `i `uc ]
 "68
 [v _state `uc ~T0 @X0 1 a ]
 [; ;pin_manager.c: 68: bool state = GIE;

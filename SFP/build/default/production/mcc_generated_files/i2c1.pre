@@ -9789,7 +9789,7 @@ SSP1CON3 = 0x00;
 
 SSP1MSK = (0x7F << 1);
 
-SSP1ADD = (0x70 << 1);
+SSP1ADD = (0x50 << 1);
 
 
 PIR1bits.SSP1IF = 0;

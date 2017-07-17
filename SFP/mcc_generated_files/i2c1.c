@@ -46,7 +46,7 @@
 
 #include "i2c1.h"
 
-#define I2C1_SLAVE_ADDRESS 0x70  //0x50    //0101 0000  -> 1010 000x
+#define I2C1_SLAVE_ADDRESS 0x50    //0101 0000  -> 1010 000x
 #define I2C1_SLAVE_MASK    0x7F
 
 typedef enum

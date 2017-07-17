@@ -59,11 +59,11 @@ void PIN_MANAGER_Initialize(void)
     ANSELB = 0x0;
     ANSELC = 0xFF;
     TRISB = 0xF0;
-    TRISC = 0xE7; // 0xEF;  //make RC3 output also
+    TRISC = 0x27; // 0xEF;  //make RC3 output also
     TRISA = 0x27;
 
     
-
+    ODCONC =0x00;
 
     bool state = GIE;
     GIE = 0;

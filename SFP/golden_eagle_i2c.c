@@ -350,7 +350,7 @@ void GE_reload_default(void)
    // GE_I2C2_HexWrite(0x980d,0x0777);
    // GE_I2C2_HexWrite(0x980d,0x0000);//Logic Reset
     
-    GE_I2C2_HexWrite(0x980d,0x0888);//Software Reset
+   // GE_I2C2_HexWrite(0x980d,0x0888);//Software Reset
     
    
     GE_I2C2_HexWrite(0x9900,0x9dc0);

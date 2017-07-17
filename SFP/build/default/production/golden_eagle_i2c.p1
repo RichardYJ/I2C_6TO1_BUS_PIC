@@ -8355,9 +8355,6 @@ Version 3.2 HI-TECH Software Intermediate Code
 [v _i `i ~T0 @X0 1 a ]
 [; ;golden_eagle_i2c.c: 349: int i=0;
 [e = _i -> 0 `i ]
-[; ;golden_eagle_i2c.c: 353: GE_I2C2_HexWrite(0x980d,0x0888);
-"353
-[e ( _GE_I2C2_HexWrite (2 , -> 38925 `ui -> -> 2184 `i `ui ]
 [; ;golden_eagle_i2c.c: 356: GE_I2C2_HexWrite(0x9900,0x9dc0);
 "356
 [e ( _GE_I2C2_HexWrite (2 , -> 39168 `ui -> 40384 `ui ]
